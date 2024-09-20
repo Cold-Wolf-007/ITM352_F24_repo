@@ -3,7 +3,7 @@
 # Name: Erik Hall
 # Date created: 9/4/24
 
-balue_entered + input("please enter a value between 1 and 100")
+value_entered + input("please enter a value between 1 and 100: ")
 
 value_squared_int = int(value_entered)
 value_squared + value_entered_int**2

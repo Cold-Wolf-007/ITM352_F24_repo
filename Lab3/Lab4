@@ -1,0 +1,5 @@
+#Playing around with strings
+FirstName = input("Please enter your first name: ")
+
+print("We got ", FirstName)
+print("Your first initial is ", FirstName[0:2])
