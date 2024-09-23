@@ -24,3 +24,14 @@
 #responseValues.remove(0)   #first occurance of 0 from the list
 
 #print(responseValues)
+
+# Manipulate a list in various ways
+
+
+
+responseValues = [5,7,3,8]
+respondentIDs = [1012, 1035, 1021, 1053]
+
+#create a Dictionary with ID values as the keys and survey responses as the values using zip()
+surveyDict = dict(zip(respondentIDs, responseValues))
+print(surveyDict)
